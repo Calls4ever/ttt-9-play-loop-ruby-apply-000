@@ -1,4 +1,13 @@
 # Helper Methods
+def play(board)
+  index=0
+  while  index<9
+    turn(board)
+    index +=1
+  end
+end
+
+
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
