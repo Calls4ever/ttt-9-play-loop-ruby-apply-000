@@ -1,6 +1,6 @@
 # Helper Methods
 def play(board)
-  turn(board)
+  9.times turn(board)
 
 
 end
