@@ -1,7 +1,11 @@
 # Helper Methods
 def play(board)
-  9.times turn(board)
+  index=0
+  while  index<9
+    turn(board)
+  end
 end
+
 
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
