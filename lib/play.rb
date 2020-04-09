@@ -3,6 +3,7 @@ def play(board)
   index=0
   while  index<9
     turn(board)
+    index +=1
   end
 end
 
